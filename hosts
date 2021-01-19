@@ -1,5 +1,5 @@
 [kubernetes-master-nodes]
-master ansible_user=ec2-user 
+master ansible_user=ubuntu os_type="Ubuntu"
 
 [kubernetes-worker-nodes]
-worker1 ansible_user=ec2-user 
+worker1 ansible_user=ubuntu os_type="Ubuntu"
